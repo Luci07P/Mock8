@@ -1,5 +1,5 @@
 const express = require('express');
-const {connection,User,Product} = require('./model/model')
+const {connection,User,Product} = require('./model.js')
 var jwt = require('jsonwebtoken');
 var cors = require('cors')
 const bcrypt = require('bcrypt');
